@@ -13,7 +13,7 @@
       "item": [
         {
           "id": "806939df-3174-488e-b7d5-ba6bd37d1563",
-          "name": "New Request",
+          "name": "google",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
