@@ -13,7 +13,7 @@
       "item": [
         {
           "id": "806939df-3174-488e-b7d5-ba6bd37d1563",
-          "name": "google",
+          "name": "New Request",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -36,6 +36,6 @@
     }
   ],
   "environments": null,
-  "exportedAt": "2025-08-08T22:26:49+02:00",
+  "exportedAt": "2025-08-08T22:27:47+02:00",
   "workspaceId": "a9474b01-abca-4bb1-959f-d425d32422e5"
 }
