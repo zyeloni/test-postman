@@ -2,163 +2,98 @@
   "collections": [
     {
       "info": {
-        "_postman_id": "ec49e5a6-2498-4bd6-9bc8-0e856c664634",
-        "createdAt": "2024-06-10T07:46:58.000Z",
+        "_postman_id": "4e66fd32-b05c-481c-8aba-6ec71057f38a",
+        "createdAt": "2024-06-18T15:26:55.000Z",
         "lastUpdatedBy": "3815003",
-        "name": "TechnikonCreateUser",
+        "name": "QUIZ",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-ec49e5a6-2498-4bd6-9bc8-0e856c664634"
+        "uid": "3815003-4e66fd32-b05c-481c-8aba-6ec71057f38a"
       },
       "item": [
         {
-          "id": "eeb9b965-c7b0-442a-b9f5-a90bc34238df",
-          "name": "/user/register",
+          "id": "7222975f-5b2a-4f75-a68a-378eff3d0c55",
+          "name": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
           "request": {
             "body": {
               "mode": "raw",
-              "raw": ""
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              },
+              "raw": "{\n    \"email\" : \"marcin.szpojankowski@nask.pl\",\n    \"password\" : \"SzpojanKrul123!\"\n}"
             },
             "header": [],
             "method": "POST",
             "url": {
               "host": [
-                "{{url}}"
+                "technikon-esa-quiz-controller-dev",
+                "ose",
+                "waw",
+                "pl"
               ],
               "path": [
-                "",
+                "api",
+                "technikon",
+                "login"
+              ],
+              "protocol": "https",
+              "raw": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login"
+            }
+          },
+          "response": [],
+          "uid": "3815003-7222975f-5b2a-4f75-a68a-378eff3d0c55"
+        },
+        {
+          "id": "2ac3dce5-1b54-4853-94cd-52c6f71d563a",
+          "name": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login Copy",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "bearer": [
+                {
+                  "key": "token",
+                  "type": "string",
+                  "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJjaW4uc3pwb2phbmtvd3NraUBuYXNrLnBsIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzE4NzI1MjQ4LCJleHAiOjE3MTg4MTE2NDh9.b2NMlTXVpuKcLpOVgRGUi3N2BvsYlv6S-NO9faP6Y2w"
+                }
+              ],
+              "type": "bearer"
+            },
+            "body": {
+              "mode": "raw",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              },
+              "raw": "{\n    \"email\" : \"vyc1jds1@technikon.esa.nask.pl\",\n    \"password\" : \"318r0X\u0026i\",\n    \"title\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type a\"\n}"
+            },
+            "header": [],
+            "method": "POST",
+            "url": {
+              "host": [
+                "technikon-esa-quiz-controller-dev",
+                "ose",
+                "waw",
+                "pl"
+              ],
+              "path": [
+                "api",
+                "technikon",
                 "user",
                 "register"
               ],
-              "raw": "{{url}}//user/register"
-            }
-          },
-          "response": [
-            {
-              "_postman_previewlanguage": null,
-              "body": "",
-              "code": 200,
-              "cookie": [],
-              "header": null,
-              "id": "e531cc94-a893-4681-9f7d-ad66bece85c9",
-              "name": "Default",
-              "originalRequest": {
-                "body": {
-                  "mode": "raw",
-                  "raw": ""
-                },
-                "header": [],
-                "method": "POST",
-                "url": {
-                  "host": [
-                    "{{url}}"
-                  ],
-                  "path": [
-                    "",
-                    "user",
-                    "register"
-                  ],
-                  "raw": "{{url}}//user/register"
-                }
-              },
-              "responseTime": null,
-              "uid": "3815003-e531cc94-a893-4681-9f7d-ad66bece85c9"
-            }
-          ],
-          "uid": "3815003-eeb9b965-c7b0-442a-b9f5-a90bc34238df"
-        }
-      ],
-      "variable": [
-        {
-          "key": "url",
-          "value": "https://32725be2-b9cb-4f29-8321-52c4927f6a7c.mock.pstmn.io"
-        }
-      ]
-    },
-    {
-      "info": {
-        "_postman_id": "5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
-        "createdAt": "2025-08-08T16:14:27.000Z",
-        "lastUpdatedBy": "3815003",
-        "name": "Google Search Example v2",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
-        "updatedAt": "2025-08-08T19:36:48.000Z"
-      },
-      "item": [
-        {
-          "id": "0ba421f8-ee6d-441d-a392-54c1d29faa82",
-          "name": "Search Google for 'postman' xd",
-          "request": {
-            "header": [],
-            "method": "GET",
-            "url": {
-              "host": [
-                "www",
-                "google",
-                "com"
-              ],
-              "path": [
-                "search"
-              ],
               "protocol": "https",
-              "query": [
-                {
-                  "key": "q",
-                  "value": "postman"
-                }
-              ],
-              "raw": "https://www.google.com/search?q=postman"
+              "raw": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/user/register"
             }
           },
           "response": [],
-          "uid": "3815003-0ba421f8-ee6d-441d-a392-54c1d29faa82"
-        },
-        {
-          "id": "88bdae4f-5a51-4517-a839-e7dacba9b112",
-          "name": "Test",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "header": [],
-            "method": "GET",
-            "url": {
-              "host": [
-                "www",
-                "google",
-                "com"
-              ],
-              "path": [
-                ""
-              ],
-              "protocol": "https",
-              "raw": "https://www.google.com/"
-            }
-          },
-          "response": [],
-          "uid": "3815003-88bdae4f-5a51-4517-a839-e7dacba9b112"
-        },
-        {
-          "id": "8f93ff7a-866f-47ac-88b6-44870b83cab7",
-          "name": "Test3",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "header": [],
-            "method": "GET",
-            "url": {
-              "host": [
-                "ALA MA KOTA"
-              ],
-              "raw": "ALA MA KOTA"
-            }
-          },
-          "response": [],
-          "uid": "3815003-8f93ff7a-866f-47ac-88b6-44870b83cab7"
+          "uid": "3815003-2ac3dce5-1b54-4853-94cd-52c6f71d563a"
         }
       ]
     },
@@ -12947,142 +12882,46 @@
     },
     {
       "info": {
-        "_postman_id": "4e66fd32-b05c-481c-8aba-6ec71057f38a",
-        "createdAt": "2024-06-18T15:26:55.000Z",
+        "_postman_id": "5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
+        "createdAt": "2025-08-08T16:14:27.000Z",
         "lastUpdatedBy": "3815003",
-        "name": "QUIZ",
+        "name": "Google Search Example v2",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-4e66fd32-b05c-481c-8aba-6ec71057f38a"
+        "uid": "3815003-5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
+        "updatedAt": "2025-08-08T19:36:48.000Z"
       },
       "item": [
         {
-          "id": "7222975f-5b2a-4f75-a68a-378eff3d0c55",
-          "name": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
+          "id": "0ba421f8-ee6d-441d-a392-54c1d29faa82",
+          "name": "Search Google for 'postman' xd",
           "request": {
-            "body": {
-              "mode": "raw",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              },
-              "raw": "{\n    \"email\" : \"marcin.szpojankowski@nask.pl\",\n    \"password\" : \"SzpojanKrul123!\"\n}"
-            },
             "header": [],
-            "method": "POST",
+            "method": "GET",
             "url": {
               "host": [
-                "technikon-esa-quiz-controller-dev",
-                "ose",
-                "waw",
-                "pl"
+                "www",
+                "google",
+                "com"
               ],
               "path": [
-                "api",
-                "technikon",
-                "login"
+                "search"
               ],
               "protocol": "https",
-              "raw": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login"
-            }
-          },
-          "response": [],
-          "uid": "3815003-7222975f-5b2a-4f75-a68a-378eff3d0c55"
-        },
-        {
-          "id": "2ac3dce5-1b54-4853-94cd-52c6f71d563a",
-          "name": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/login Copy",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "auth": {
-              "bearer": [
+              "query": [
                 {
-                  "key": "token",
-                  "type": "string",
-                  "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJjaW4uc3pwb2phbmtvd3NraUBuYXNrLnBsIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzE4NzI1MjQ4LCJleHAiOjE3MTg4MTE2NDh9.b2NMlTXVpuKcLpOVgRGUi3N2BvsYlv6S-NO9faP6Y2w"
+                  "key": "q",
+                  "value": "postman"
                 }
               ],
-              "type": "bearer"
-            },
-            "body": {
-              "mode": "raw",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              },
-              "raw": "{\n    \"email\" : \"vyc1jds1@technikon.esa.nask.pl\",\n    \"password\" : \"318r0X\u0026i\",\n    \"title\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type a\"\n}"
-            },
-            "header": [],
-            "method": "POST",
-            "url": {
-              "host": [
-                "technikon-esa-quiz-controller-dev",
-                "ose",
-                "waw",
-                "pl"
-              ],
-              "path": [
-                "api",
-                "technikon",
-                "user",
-                "register"
-              ],
-              "protocol": "https",
-              "raw": "https://technikon-esa-quiz-controller-dev.ose.waw.pl/api/technikon/user/register"
+              "raw": "https://www.google.com/search?q=postman"
             }
           },
           "response": [],
-          "uid": "3815003-2ac3dce5-1b54-4853-94cd-52c6f71d563a"
-        }
-      ]
-    },
-    {
-      "auth": {
-        "type": "basic"
-      },
-      "event": [
-        {
-          "listen": "prerequest",
-          "script": {
-            "exec": [
-              ""
-            ],
-            "id": "364f67e0-bbbe-4bdd-8c9c-d33b31408a76",
-            "packages": {},
-            "type": "text/javascript"
-          }
+          "uid": "3815003-0ba421f8-ee6d-441d-a392-54c1d29faa82"
         },
         {
-          "listen": "test",
-          "script": {
-            "exec": [
-              ""
-            ],
-            "id": "2df38e36-7b5e-4ea8-8428-ea5fc3b12a8a",
-            "packages": {},
-            "type": "text/javascript"
-          }
-        }
-      ],
-      "info": {
-        "_postman_id": "ad8e667c-642a-4f60-9260-3957ec0820ef",
-        "createdAt": "2024-12-04T23:13:06.000Z",
-        "lastUpdatedBy": "3815003",
-        "name": "FiberGoTemplate",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-ad8e667c-642a-4f60-9260-3957ec0820ef",
-        "updatedAt": "2024-12-11T18:50:55.000Z"
-      },
-      "item": [
-        {
-          "id": "1828235d-80df-4954-8016-14cc94a6aaf1",
-          "name": "New Request",
+          "id": "88bdae4f-5a51-4517-a839-e7dacba9b112",
+          "name": "Test",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -13091,23 +12930,38 @@
             "method": "GET",
             "url": {
               "host": [
-                "{{base_url}}"
+                "www",
+                "google",
+                "com"
               ],
               "path": [
-                "home"
+                ""
               ],
-              "raw": "{{base_url}}/home"
+              "protocol": "https",
+              "raw": "https://www.google.com/"
             }
           },
           "response": [],
-          "uid": "3815003-1828235d-80df-4954-8016-14cc94a6aaf1"
-        }
-      ],
-      "variable": [
+          "uid": "3815003-88bdae4f-5a51-4517-a839-e7dacba9b112"
+        },
         {
-          "key": "base_url",
-          "type": "string",
-          "value": "http://localhost:3000"
+          "id": "8f93ff7a-866f-47ac-88b6-44870b83cab7",
+          "name": "Test3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "header": [],
+            "method": "GET",
+            "url": {
+              "host": [
+                "ALA MA KOTA"
+              ],
+              "raw": "ALA MA KOTA"
+            }
+          },
+          "response": [],
+          "uid": "3815003-8f93ff7a-866f-47ac-88b6-44870b83cab7"
         }
       ]
     },
@@ -37693,9 +37547,176 @@
           "value": "7D27AB74-CA77-49C3-9BF6-FFD5CE61C46F"
         }
       ]
+    },
+    {
+      "info": {
+        "_postman_id": "ec49e5a6-2498-4bd6-9bc8-0e856c664634",
+        "createdAt": "2024-06-10T07:46:58.000Z",
+        "lastUpdatedBy": "3815003",
+        "name": "TechnikonCreateUser",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "uid": "3815003-ec49e5a6-2498-4bd6-9bc8-0e856c664634"
+      },
+      "item": [
+        {
+          "id": "eeb9b965-c7b0-442a-b9f5-a90bc34238df",
+          "name": "/user/register",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "header": [],
+            "method": "POST",
+            "url": {
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "",
+                "user",
+                "register"
+              ],
+              "raw": "{{url}}//user/register"
+            }
+          },
+          "response": [
+            {
+              "_postman_previewlanguage": null,
+              "body": "",
+              "code": 200,
+              "cookie": [],
+              "header": null,
+              "id": "e531cc94-a893-4681-9f7d-ad66bece85c9",
+              "name": "Default",
+              "originalRequest": {
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "header": [],
+                "method": "POST",
+                "url": {
+                  "host": [
+                    "{{url}}"
+                  ],
+                  "path": [
+                    "",
+                    "user",
+                    "register"
+                  ],
+                  "raw": "{{url}}//user/register"
+                }
+              },
+              "responseTime": null,
+              "uid": "3815003-e531cc94-a893-4681-9f7d-ad66bece85c9"
+            }
+          ],
+          "uid": "3815003-eeb9b965-c7b0-442a-b9f5-a90bc34238df"
+        }
+      ],
+      "variable": [
+        {
+          "key": "url",
+          "value": "https://32725be2-b9cb-4f29-8321-52c4927f6a7c.mock.pstmn.io"
+        }
+      ]
+    },
+    {
+      "auth": {
+        "type": "basic"
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "id": "364f67e0-bbbe-4bdd-8c9c-d33b31408a76",
+            "packages": {},
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "id": "2df38e36-7b5e-4ea8-8428-ea5fc3b12a8a",
+            "packages": {},
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "info": {
+        "_postman_id": "ad8e667c-642a-4f60-9260-3957ec0820ef",
+        "createdAt": "2024-12-04T23:13:06.000Z",
+        "lastUpdatedBy": "3815003",
+        "name": "FiberGoTemplate",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "uid": "3815003-ad8e667c-642a-4f60-9260-3957ec0820ef",
+        "updatedAt": "2024-12-11T18:50:55.000Z"
+      },
+      "item": [
+        {
+          "id": "1828235d-80df-4954-8016-14cc94a6aaf1",
+          "name": "New Request",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "header": [],
+            "method": "GET",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "home"
+              ],
+              "raw": "{{base_url}}/home"
+            }
+          },
+          "response": [],
+          "uid": "3815003-1828235d-80df-4954-8016-14cc94a6aaf1"
+        }
+      ],
+      "variable": [
+        {
+          "key": "base_url",
+          "type": "string",
+          "value": "http://localhost:3000"
+        }
+      ]
     }
   ],
-  "environments": null,
-  "exportedAt": "2025-08-08T22:16:10+02:00",
+  "environments": [
+    {
+      "createdAt": "2025-08-08T18:52:38.000Z",
+      "id": "99a0f6b8-8066-45f2-b34d-cd70228ccd77",
+      "isPublic": false,
+      "name": "test",
+      "owner": "3815003",
+      "uid": "3815003-99a0f6b8-8066-45f2-b34d-cd70228ccd77",
+      "updatedAt": "2025-08-08T18:52:41.000Z",
+      "values": []
+    },
+    {
+      "createdAt": "2025-08-08T18:52:53.000Z",
+      "id": "be72e8b1-2711-483d-9521-b32d21bd494e",
+      "isPublic": false,
+      "name": "New Environment",
+      "owner": "3815003",
+      "uid": "3815003-be72e8b1-2711-483d-9521-b32d21bd494e",
+      "updatedAt": "2025-08-08T18:52:53.000Z",
+      "values": []
+    }
+  ],
+  "exportedAt": "2025-08-08T22:22:45+02:00",
   "workspaceId": "24219cc8-05fc-47b9-876c-fbf6c8bfd7e3"
 }
