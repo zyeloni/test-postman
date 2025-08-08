@@ -1,1 +1,16 @@
-{"collection":{"info":{"_postman_id":"5ccb69ac-24db-4a90-abf8-30589d3fdbf8","name":"Google Search Example v2","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json","updatedAt":"2025-08-08T18:43:12.000Z","createdAt":"2025-08-08T16:14:27.000Z","lastUpdatedBy":"3815003","uid":"3815003-5ccb69ac-24db-4a90-abf8-30589d3fdbf8"},"item":[{"name":"Search Google for 'postman' xd","id":"0ba421f8-ee6d-441d-a392-54c1d29faa82","request":{"method":"GET","header":[],"url":{"raw":"https://www.google.com/search?q=postman","protocol":"https","host":["www","google","com"],"path":["search"],"query":[{"key":"q","value":"postman"}]}},"response":[],"uid":"3815003-0ba421f8-ee6d-441d-a392-54c1d29faa82"},{"name":"Test","id":"88bdae4f-5a51-4517-a839-e7dacba9b112","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"https://www.google.com/","protocol":"https","host":["www","google","com"],"path":[""]}},"response":[],"uid":"3815003-88bdae4f-5a51-4517-a839-e7dacba9b112"},{"name":"Test3","id":"8f93ff7a-866f-47ac-88b6-44870b83cab7","protocolProfileBehavior":{"disableBodyPruning":true},"request":{"method":"GET","header":[],"url":{"raw":"ALA MA KOTA","host":["ALA MA KOTA"]}},"response":[],"uid":"3815003-8f93ff7a-866f-47ac-88b6-44870b83cab7"}]}}
+{
+  "collectionIds": [
+    "3815003-4e66fd32-b05c-481c-8aba-6ec71057f38a",
+    "3815003-5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
+    "3815003-95addd39-ad65-4691-ba86-9188b9f49ed9",
+    "3815003-ec49e5a6-2498-4bd6-9bc8-0e856c664634",
+    "3815003-ad8e667c-642a-4f60-9260-3957ec0820ef",
+    "3815003-b68ad770-489b-4670-82cc-c31f124ad575"
+  ],
+  "environmentIds": [
+    "3815003-99a0f6b8-8066-45f2-b34d-cd70228ccd77",
+    "3815003-be72e8b1-2711-483d-9521-b32d21bd494e"
+  ],
+  "exportedAt": "2025-08-08T22:02:38+02:00",
+  "workspaceId": "24219cc8-05fc-47b9-876c-fbf6c8bfd7e3"
+}
