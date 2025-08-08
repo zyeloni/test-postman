@@ -2,6 +2,83 @@
   "collections": [
     {
       "info": {
+        "_postman_id": "ec49e5a6-2498-4bd6-9bc8-0e856c664634",
+        "createdAt": "2024-06-10T07:46:58.000Z",
+        "lastUpdatedBy": "3815003",
+        "name": "TechnikonCreateUser",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "uid": "3815003-ec49e5a6-2498-4bd6-9bc8-0e856c664634"
+      },
+      "item": [
+        {
+          "id": "eeb9b965-c7b0-442a-b9f5-a90bc34238df",
+          "name": "/user/register",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "header": [],
+            "method": "POST",
+            "url": {
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "",
+                "user",
+                "register"
+              ],
+              "raw": "{{url}}//user/register"
+            }
+          },
+          "response": [
+            {
+              "_postman_previewlanguage": null,
+              "body": "",
+              "code": 200,
+              "cookie": [],
+              "header": null,
+              "id": "e531cc94-a893-4681-9f7d-ad66bece85c9",
+              "name": "Default",
+              "originalRequest": {
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "header": [],
+                "method": "POST",
+                "url": {
+                  "host": [
+                    "{{url}}"
+                  ],
+                  "path": [
+                    "",
+                    "user",
+                    "register"
+                  ],
+                  "raw": "{{url}}//user/register"
+                }
+              },
+              "responseTime": null,
+              "uid": "3815003-e531cc94-a893-4681-9f7d-ad66bece85c9"
+            }
+          ],
+          "uid": "3815003-eeb9b965-c7b0-442a-b9f5-a90bc34238df"
+        }
+      ],
+      "variable": [
+        {
+          "key": "url",
+          "value": "https://32725be2-b9cb-4f29-8321-52c4927f6a7c.mock.pstmn.io"
+        }
+      ]
+    },
+    {
+      "info": {
         "_postman_id": "5ccb69ac-24db-4a90-abf8-30589d3fdbf8",
         "createdAt": "2025-08-08T16:14:27.000Z",
         "lastUpdatedBy": "3815003",
@@ -82,152 +159,6 @@
           },
           "response": [],
           "uid": "3815003-8f93ff7a-866f-47ac-88b6-44870b83cab7"
-        }
-      ]
-    },
-    {
-      "info": {
-        "_postman_id": "ec49e5a6-2498-4bd6-9bc8-0e856c664634",
-        "createdAt": "2024-06-10T07:46:58.000Z",
-        "lastUpdatedBy": "3815003",
-        "name": "TechnikonCreateUser",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-ec49e5a6-2498-4bd6-9bc8-0e856c664634"
-      },
-      "item": [
-        {
-          "id": "eeb9b965-c7b0-442a-b9f5-a90bc34238df",
-          "name": "/user/register",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "body": {
-              "mode": "raw",
-              "raw": ""
-            },
-            "header": [],
-            "method": "POST",
-            "url": {
-              "host": [
-                "{{url}}"
-              ],
-              "path": [
-                "",
-                "user",
-                "register"
-              ],
-              "raw": "{{url}}//user/register"
-            }
-          },
-          "response": [
-            {
-              "_postman_previewlanguage": null,
-              "body": "",
-              "code": 200,
-              "cookie": [],
-              "header": null,
-              "id": "e531cc94-a893-4681-9f7d-ad66bece85c9",
-              "name": "Default",
-              "originalRequest": {
-                "body": {
-                  "mode": "raw",
-                  "raw": ""
-                },
-                "header": [],
-                "method": "POST",
-                "url": {
-                  "host": [
-                    "{{url}}"
-                  ],
-                  "path": [
-                    "",
-                    "user",
-                    "register"
-                  ],
-                  "raw": "{{url}}//user/register"
-                }
-              },
-              "responseTime": null,
-              "uid": "3815003-e531cc94-a893-4681-9f7d-ad66bece85c9"
-            }
-          ],
-          "uid": "3815003-eeb9b965-c7b0-442a-b9f5-a90bc34238df"
-        }
-      ],
-      "variable": [
-        {
-          "key": "url",
-          "value": "https://32725be2-b9cb-4f29-8321-52c4927f6a7c.mock.pstmn.io"
-        }
-      ]
-    },
-    {
-      "auth": {
-        "type": "basic"
-      },
-      "event": [
-        {
-          "listen": "prerequest",
-          "script": {
-            "exec": [
-              ""
-            ],
-            "id": "364f67e0-bbbe-4bdd-8c9c-d33b31408a76",
-            "packages": {},
-            "type": "text/javascript"
-          }
-        },
-        {
-          "listen": "test",
-          "script": {
-            "exec": [
-              ""
-            ],
-            "id": "2df38e36-7b5e-4ea8-8428-ea5fc3b12a8a",
-            "packages": {},
-            "type": "text/javascript"
-          }
-        }
-      ],
-      "info": {
-        "_postman_id": "ad8e667c-642a-4f60-9260-3957ec0820ef",
-        "createdAt": "2024-12-04T23:13:06.000Z",
-        "lastUpdatedBy": "3815003",
-        "name": "FiberGoTemplate",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "uid": "3815003-ad8e667c-642a-4f60-9260-3957ec0820ef",
-        "updatedAt": "2024-12-11T18:50:55.000Z"
-      },
-      "item": [
-        {
-          "id": "1828235d-80df-4954-8016-14cc94a6aaf1",
-          "name": "New Request",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "header": [],
-            "method": "GET",
-            "url": {
-              "host": [
-                "{{base_url}}"
-              ],
-              "path": [
-                "home"
-              ],
-              "raw": "{{base_url}}/home"
-            }
-          },
-          "response": [],
-          "uid": "3815003-1828235d-80df-4954-8016-14cc94a6aaf1"
-        }
-      ],
-      "variable": [
-        {
-          "key": "base_url",
-          "type": "string",
-          "value": "http://localhost:3000"
         }
       ]
     },
@@ -13108,6 +13039,75 @@
           },
           "response": [],
           "uid": "3815003-2ac3dce5-1b54-4853-94cd-52c6f71d563a"
+        }
+      ]
+    },
+    {
+      "auth": {
+        "type": "basic"
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "id": "364f67e0-bbbe-4bdd-8c9c-d33b31408a76",
+            "packages": {},
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "id": "2df38e36-7b5e-4ea8-8428-ea5fc3b12a8a",
+            "packages": {},
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "info": {
+        "_postman_id": "ad8e667c-642a-4f60-9260-3957ec0820ef",
+        "createdAt": "2024-12-04T23:13:06.000Z",
+        "lastUpdatedBy": "3815003",
+        "name": "FiberGoTemplate",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "uid": "3815003-ad8e667c-642a-4f60-9260-3957ec0820ef",
+        "updatedAt": "2024-12-11T18:50:55.000Z"
+      },
+      "item": [
+        {
+          "id": "1828235d-80df-4954-8016-14cc94a6aaf1",
+          "name": "New Request",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "header": [],
+            "method": "GET",
+            "url": {
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "home"
+              ],
+              "raw": "{{base_url}}/home"
+            }
+          },
+          "response": [],
+          "uid": "3815003-1828235d-80df-4954-8016-14cc94a6aaf1"
+        }
+      ],
+      "variable": [
+        {
+          "key": "base_url",
+          "type": "string",
+          "value": "http://localhost:3000"
         }
       ]
     },
@@ -37696,6 +37696,6 @@
     }
   ],
   "environments": null,
-  "exportedAt": "2025-08-08T22:06:58+02:00",
+  "exportedAt": "2025-08-08T22:16:10+02:00",
   "workspaceId": "24219cc8-05fc-47b9-876c-fbf6c8bfd7e3"
 }
