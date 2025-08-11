@@ -8,7 +8,7 @@
         "name": "Tet",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
         "uid": "3815003-883f2d4a-8f16-4b1f-ad9e-2e69979e1b03",
-        "updatedAt": "2025-08-11T05:59:06.000Z"
+        "updatedAt": "2025-08-11T08:07:04.000Z"
       },
       "item": [
         {
@@ -43,7 +43,7 @@
       "name": "KACPER 2",
       "owner": "3815003",
       "uid": "3815003-b69b5afd-738b-4918-9601-b43cb07335ac",
-      "updatedAt": "2025-08-11T05:59:25.000Z",
+      "updatedAt": "2025-08-11T08:07:04.000Z",
       "values": [
         {
           "enabled": true,
@@ -54,6 +54,6 @@
       ]
     }
   ],
-  "exportedAt": "2025-08-11T08:01:37+02:00",
+  "exportedAt": "2025-08-11T10:07:09+02:00",
   "workspaceId": "a9474b01-abca-4bb1-959f-d425d32422e5"
 }
