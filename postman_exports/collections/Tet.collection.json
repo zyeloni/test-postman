@@ -1,17 +1,45 @@
 {
   "collection": {
     "info": {
-      "_postman_id": "883f2d4a-8f16-4b1f-ad9e-2e69979e1b03",
-      "createdAt": "2025-08-08T20:24:13.000Z",
+      "_postman_id": "bcbf1e1b-a9aa-488b-82d6-56cc8c4af3a3",
+      "createdAt": "2025-08-13T09:58:11.000Z",
       "lastUpdatedBy": "3815003",
       "name": "Tet",
       "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-      "uid": "3815003-883f2d4a-8f16-4b1f-ad9e-2e69979e1b03",
-      "updatedAt": "2025-08-11T08:36:01.000Z"
+      "uid": "3815003-bcbf1e1b-a9aa-488b-82d6-56cc8c4af3a3",
+      "updatedAt": "2025-08-13T10:28:48.000Z"
     },
     "item": [
       {
-        "id": "806939df-3174-488e-b7d5-ba6bd37d1563",
+        "id": "9cd0e6ca-07e3-4c03-8296-19513f469298",
+        "item": [
+          {
+            "id": "71b4dab6-af66-4a6d-8a06-e87eb5638789",
+            "name": "New Request",
+            "protocolProfileBehavior": {
+              "disableBodyPruning": true
+            },
+            "request": {
+              "header": [],
+              "method": "GET",
+              "url": {
+                "host": [
+                  "google",
+                  "pl"
+                ],
+                "protocol": "https",
+                "raw": "https://google.pl"
+              }
+            },
+            "response": [],
+            "uid": "3815003-71b4dab6-af66-4a6d-8a06-e87eb5638789"
+          }
+        ],
+        "name": "Test2",
+        "uid": "3815003-9cd0e6ca-07e3-4c03-8296-19513f469298"
+      },
+      {
+        "id": "f43cfcbb-6f9e-4c22-819e-5c14a2523380",
         "name": "New Request #2 ala ma kota",
         "protocolProfileBehavior": {
           "disableBodyPruning": true
@@ -29,7 +57,7 @@
           }
         },
         "response": [],
-        "uid": "3815003-806939df-3174-488e-b7d5-ba6bd37d1563"
+        "uid": "3815003-f43cfcbb-6f9e-4c22-819e-5c14a2523380"
       }
     ]
   }
